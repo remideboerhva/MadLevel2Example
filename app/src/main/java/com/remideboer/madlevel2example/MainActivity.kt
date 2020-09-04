@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             // eerst valideren, graag geen lege strings in de lijst
             etReminder.text.toString().takeIf { it.isNotBlank() }
                 ?.let {// isNotBlank geeft een null terug als wel een blank string, daar kunnen we gebruik van maken met een safe call
-                    list.add(Reminder(etReminder.text.toString()))
+                    list.add(Reminder(it))
                     // trigger update, een standaard methode van recyclerview
                     viewAdapter.notifyDataSetChanged()
                 }
