@@ -17,5 +17,5 @@ ArrayList is used bij de Kotlin libraries
 The list gets initialized on first use. In this example this does not
 make much of a difference since the list created early in onCreate
 
-### replaced regular if statement with some kotlin library/extension functions
+#### replaced regular if statement with some kotlin library/extension functions
 [MainActivity.kt](https://github.com/remideboerhva/MadLevel2Example/blob/ea5e9ccb9c1fe335ee88372a04bf18cb41209beb/app/src/main/java/com/remideboer/madlevel2example/MainActivity.kt#L33)
