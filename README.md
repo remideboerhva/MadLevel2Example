@@ -19,3 +19,6 @@ make much of a difference since the list created early in onCreate
 
 #### replaced regular if statement with some kotlin library/extension functions
 [MainActivity.kt](https://github.com/remideboerhva/MadLevel2Example/blob/ea5e9ccb9c1fe335ee88372a04bf18cb41209beb/app/src/main/java/com/remideboer/madlevel2example/MainActivity.kt#L33)
+
+#### passing a context for use inside an anonymous class when you can't use this
+[using let on the context](https://github.com/remideboerhva/MadLevel2Example/blob/341c97499138b564ee289e9a40480bb22eba3ae2/app/src/main/java/com/remideboer/madlevel2example/MainActivity.kt#L95)
